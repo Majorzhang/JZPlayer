@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E779B31D47128E0017DFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779B21D47128E0017DFF2 /* AppDelegate.swift */; };
+		A7E779B51D47128E0017DFF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779B41D47128E0017DFF2 /* ViewController.swift */; };
+		A7E779B81D47128E0017DFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E779B61D47128E0017DFF2 /* Main.storyboard */; };
+		A7E779BA1D47128E0017DFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E779B91D47128E0017DFF2 /* Assets.xcassets */; };
+		A7E779BD1D47128E0017DFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E779BB1D47128E0017DFF2 /* LaunchScreen.storyboard */; };
+		A7E779C81D47128E0017DFF2 /* JZAVPlayerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779C71D47128E0017DFF2 /* JZAVPlayerControllerTests.swift */; };
+		A7E779D31D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779D21D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7E779C41D47128E0017DFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E779A71D47128E0017DFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E779AE1D47128E0017DFF2;
+			remoteInfo = JZAVPlayerController;
+		};
+		A7E779CF1D47128E0017DFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E779A71D47128E0017DFF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E779AE1D47128E0017DFF2;
+			remoteInfo = JZAVPlayerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7E779AF1D47128E0017DFF2 /* JZAVPlayerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAVPlayerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E779B21D47128E0017DFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7E779B41D47128E0017DFF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7E779B71D47128E0017DFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7E779B91D47128E0017DFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7E779BC1D47128E0017DFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7E779BE1D47128E0017DFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E779C31D47128E0017DFF2 /* JZAVPlayerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZAVPlayerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E779C71D47128E0017DFF2 /* JZAVPlayerControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAVPlayerControllerTests.swift; sourceTree = "<group>"; };
+		A7E779C91D47128E0017DFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E779CE1D47128E0017DFF2 /* JZAVPlayerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZAVPlayerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E779D21D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAVPlayerControllerUITests.swift; sourceTree = "<group>"; };
+		A7E779D41D47128E0017DFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E779AC1D47128E0017DFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779C01D47128E0017DFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779CB1D47128E0017DFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7E779A61D47128E0017DFF2 = {
+			isa = PBXGroup;
+			children = (
+				A7E779B11D47128E0017DFF2 /* JZAVPlayerController */,
+				A7E779C61D47128E0017DFF2 /* JZAVPlayerControllerTests */,
+				A7E779D11D47128E0017DFF2 /* JZAVPlayerControllerUITests */,
+				A7E779B01D47128E0017DFF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E779B01D47128E0017DFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E779AF1D47128E0017DFF2 /* JZAVPlayerController.app */,
+				A7E779C31D47128E0017DFF2 /* JZAVPlayerControllerTests.xctest */,
+				A7E779CE1D47128E0017DFF2 /* JZAVPlayerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E779B11D47128E0017DFF2 /* JZAVPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				A7E779B21D47128E0017DFF2 /* AppDelegate.swift */,
+				A7E779B41D47128E0017DFF2 /* ViewController.swift */,
+				A7E779B61D47128E0017DFF2 /* Main.storyboard */,
+				A7E779B91D47128E0017DFF2 /* Assets.xcassets */,
+				A7E779BB1D47128E0017DFF2 /* LaunchScreen.storyboard */,
+				A7E779BE1D47128E0017DFF2 /* Info.plist */,
+			);
+			path = JZAVPlayerController;
+			sourceTree = "<group>";
+		};
+		A7E779C61D47128E0017DFF2 /* JZAVPlayerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E779C71D47128E0017DFF2 /* JZAVPlayerControllerTests.swift */,
+				A7E779C91D47128E0017DFF2 /* Info.plist */,
+			);
+			path = JZAVPlayerControllerTests;
+			sourceTree = "<group>";
+		};
+		A7E779D11D47128E0017DFF2 /* JZAVPlayerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E779D21D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift */,
+				A7E779D41D47128E0017DFF2 /* Info.plist */,
+			);
+			path = JZAVPlayerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E779AE1D47128E0017DFF2 /* JZAVPlayerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E779D71D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerController" */;
+			buildPhases = (
+				A7E779AB1D47128E0017DFF2 /* Sources */,
+				A7E779AC1D47128E0017DFF2 /* Frameworks */,
+				A7E779AD1D47128E0017DFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZAVPlayerController;
+			productName = JZAVPlayerController;
+			productReference = A7E779AF1D47128E0017DFF2 /* JZAVPlayerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7E779C21D47128E0017DFF2 /* JZAVPlayerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E779DA1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerTests" */;
+			buildPhases = (
+				A7E779BF1D47128E0017DFF2 /* Sources */,
+				A7E779C01D47128E0017DFF2 /* Frameworks */,
+				A7E779C11D47128E0017DFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E779C51D47128E0017DFF2 /* PBXTargetDependency */,
+			);
+			name = JZAVPlayerControllerTests;
+			productName = JZAVPlayerControllerTests;
+			productReference = A7E779C31D47128E0017DFF2 /* JZAVPlayerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7E779CD1D47128E0017DFF2 /* JZAVPlayerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E779DD1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerUITests" */;
+			buildPhases = (
+				A7E779CA1D47128E0017DFF2 /* Sources */,
+				A7E779CB1D47128E0017DFF2 /* Frameworks */,
+				A7E779CC1D47128E0017DFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E779D01D47128E0017DFF2 /* PBXTargetDependency */,
+			);
+			name = JZAVPlayerControllerUITests;
+			productName = JZAVPlayerControllerUITests;
+			productReference = A7E779CE1D47128E0017DFF2 /* JZAVPlayerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E779A71D47128E0017DFF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jun Zhang";
+				TargetAttributes = {
+					A7E779AE1D47128E0017DFF2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H2WGP2KVYC;
+					};
+					A7E779C21D47128E0017DFF2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H2WGP2KVYC;
+						TestTargetID = A7E779AE1D47128E0017DFF2;
+					};
+					A7E779CD1D47128E0017DFF2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H2WGP2KVYC;
+						TestTargetID = A7E779AE1D47128E0017DFF2;
+					};
+				};
+			};
+			buildConfigurationList = A7E779AA1D47128E0017DFF2 /* Build configuration list for PBXProject "JZAVPlayerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7E779A61D47128E0017DFF2;
+			productRefGroup = A7E779B01D47128E0017DFF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E779AE1D47128E0017DFF2 /* JZAVPlayerController */,
+				A7E779C21D47128E0017DFF2 /* JZAVPlayerControllerTests */,
+				A7E779CD1D47128E0017DFF2 /* JZAVPlayerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E779AD1D47128E0017DFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E779BD1D47128E0017DFF2 /* LaunchScreen.storyboard in Resources */,
+				A7E779BA1D47128E0017DFF2 /* Assets.xcassets in Resources */,
+				A7E779B81D47128E0017DFF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779C11D47128E0017DFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779CC1D47128E0017DFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E779AB1D47128E0017DFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E779B51D47128E0017DFF2 /* ViewController.swift in Sources */,
+				A7E779B31D47128E0017DFF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779BF1D47128E0017DFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E779C81D47128E0017DFF2 /* JZAVPlayerControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E779CA1D47128E0017DFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E779D31D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7E779C51D47128E0017DFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E779AE1D47128E0017DFF2 /* JZAVPlayerController */;
+			targetProxy = A7E779C41D47128E0017DFF2 /* PBXContainerItemProxy */;
+		};
+		A7E779D01D47128E0017DFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E779AE1D47128E0017DFF2 /* JZAVPlayerController */;
+			targetProxy = A7E779CF1D47128E0017DFF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7E779B61D47128E0017DFF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E779B71D47128E0017DFF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7E779BB1D47128E0017DFF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E779BC1D47128E0017DFF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7E779D51D47128E0017DFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7E779D61D47128E0017DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E779D81D47128E0017DFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZAVPlayerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7E779D91D47128E0017DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZAVPlayerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7E779DB1D47128E0017DFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JZAVPlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZAVPlayerController.app/JZAVPlayerController";
+			};
+			name = Debug;
+		};
+		A7E779DC1D47128E0017DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JZAVPlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZAVPlayerController.app/JZAVPlayerController";
+			};
+			name = Release;
+		};
+		A7E779DE1D47128E0017DFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JZAVPlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZAVPlayerController;
+			};
+			name = Debug;
+		};
+		A7E779DF1D47128E0017DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JZAVPlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwc.REX.JZAVPlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZAVPlayerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E779AA1D47128E0017DFF2 /* Build configuration list for PBXProject "JZAVPlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E779D51D47128E0017DFF2 /* Debug */,
+				A7E779D61D47128E0017DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E779D71D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E779D81D47128E0017DFF2 /* Debug */,
+				A7E779D91D47128E0017DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7E779DA1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E779DB1D47128E0017DFF2 /* Debug */,
+				A7E779DC1D47128E0017DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7E779DD1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E779DE1D47128E0017DFF2 /* Debug */,
+				A7E779DF1D47128E0017DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7E779A71D47128E0017DFF2 /* Project object */;
+}
