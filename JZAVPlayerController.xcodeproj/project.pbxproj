@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73CE9DC1D4A0266002A978E /* JZSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CE9DB1D4A0266002A978E /* JZSlider.swift */; };
+		A73CE9FD1D53276E002A978E /* REXHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CE9FC1D53276E002A978E /* REXHUD.swift */; };
+		A73CE9FF1D5329DE002A978E /* JZHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CE9FE1D5329DE002A978E /* JZHUD.swift */; };
 		A7E779B31D47128E0017DFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779B21D47128E0017DFF2 /* AppDelegate.swift */; };
 		A7E779B51D47128E0017DFF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779B41D47128E0017DFF2 /* ViewController.swift */; };
 		A7E779B81D47128E0017DFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E779B61D47128E0017DFF2 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		A7E779BD1D47128E0017DFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E779BB1D47128E0017DFF2 /* LaunchScreen.storyboard */; };
 		A7E779C81D47128E0017DFF2 /* JZAVPlayerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779C71D47128E0017DFF2 /* JZAVPlayerControllerTests.swift */; };
 		A7E779D31D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779D21D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift */; };
+		A7E779E11D47133B0017DFF2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E779E01D47133B0017DFF2 /* AVKit.framework */; };
+		A7E779E31D47136B0017DFF2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E779E21D47136B0017DFF2 /* AVFoundation.framework */; };
+		A7E779E71D47146C0017DFF2 /* JZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779E61D47146C0017DFF2 /* JZPlayer.swift */; };
+		A7E779E91D4725EA0017DFF2 /* testvide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A7E779E81D4725EA0017DFF2 /* testvide.mp4 */; };
+		A7E779EE1D473A000017DFF2 /* JZPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E779ED1D473A000017DFF2 /* JZPlayerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A73CE9DB1D4A0266002A978E /* JZSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZSlider.swift; sourceTree = "<group>"; };
+		A73CE9FC1D53276E002A978E /* REXHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REXHUD.swift; sourceTree = "<group>"; };
+		A73CE9FE1D5329DE002A978E /* JZHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZHUD.swift; sourceTree = "<group>"; };
 		A7E779AF1D47128E0017DFF2 /* JZAVPlayerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAVPlayerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E779B21D47128E0017DFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7E779B41D47128E0017DFF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		A7E779CE1D47128E0017DFF2 /* JZAVPlayerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZAVPlayerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E779D21D47128E0017DFF2 /* JZAVPlayerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAVPlayerControllerUITests.swift; sourceTree = "<group>"; };
 		A7E779D41D47128E0017DFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E779E01D47133B0017DFF2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A7E779E21D47136B0017DFF2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A7E779E61D47146C0017DFF2 /* JZPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZPlayer.swift; sourceTree = "<group>"; };
+		A7E779E81D4725EA0017DFF2 /* testvide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvide.mp4; path = ../../../../../Applications/Xcode7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVKit.framework/Headers/testvide.mp4; sourceTree = "<group>"; };
+		A7E779ED1D473A000017DFF2 /* JZPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZPlayerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E779E31D47136B0017DFF2 /* AVFoundation.framework in Frameworks */,
+				A7E779E11D47133B0017DFF2 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,8 @@
 		A7E779A61D47128E0017DFF2 = {
 			isa = PBXGroup;
 			children = (
+				A7E779E21D47136B0017DFF2 /* AVFoundation.framework */,
+				A7E779E01D47133B0017DFF2 /* AVKit.framework */,
 				A7E779B11D47128E0017DFF2 /* JZAVPlayerController */,
 				A7E779C61D47128E0017DFF2 /* JZAVPlayerControllerTests */,
 				A7E779D11D47128E0017DFF2 /* JZAVPlayerControllerUITests */,
@@ -97,8 +117,14 @@
 		A7E779B11D47128E0017DFF2 /* JZAVPlayerController */ = {
 			isa = PBXGroup;
 			children = (
+				A7E779E81D4725EA0017DFF2 /* testvide.mp4 */,
 				A7E779B21D47128E0017DFF2 /* AppDelegate.swift */,
 				A7E779B41D47128E0017DFF2 /* ViewController.swift */,
+				A73CE9FC1D53276E002A978E /* REXHUD.swift */,
+				A7E779E61D47146C0017DFF2 /* JZPlayer.swift */,
+				A73CE9DB1D4A0266002A978E /* JZSlider.swift */,
+				A73CE9FE1D5329DE002A978E /* JZHUD.swift */,
+				A7E779ED1D473A000017DFF2 /* JZPlayerManager.swift */,
 				A7E779B61D47128E0017DFF2 /* Main.storyboard */,
 				A7E779B91D47128E0017DFF2 /* Assets.xcassets */,
 				A7E779BB1D47128E0017DFF2 /* LaunchScreen.storyboard */,
@@ -235,6 +261,7 @@
 				A7E779BD1D47128E0017DFF2 /* LaunchScreen.storyboard in Resources */,
 				A7E779BA1D47128E0017DFF2 /* Assets.xcassets in Resources */,
 				A7E779B81D47128E0017DFF2 /* Main.storyboard in Resources */,
+				A7E779E91D4725EA0017DFF2 /* testvide.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73CE9FD1D53276E002A978E /* REXHUD.swift in Sources */,
+				A7E779EE1D473A000017DFF2 /* JZPlayerManager.swift in Sources */,
+				A73CE9FF1D5329DE002A978E /* JZHUD.swift in Sources */,
+				A73CE9DC1D4A0266002A978E /* JZSlider.swift in Sources */,
 				A7E779B51D47128E0017DFF2 /* ViewController.swift in Sources */,
+				A7E779E71D47146C0017DFF2 /* JZPlayer.swift in Sources */,
 				A7E779B31D47128E0017DFF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +519,7 @@
 				A7E779D91D47128E0017DFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7E779DA1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +528,7 @@
 				A7E779DC1D47128E0017DFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7E779DD1D47128E0017DFF2 /* Build configuration list for PBXNativeTarget "JZAVPlayerControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +537,7 @@
 				A7E779DF1D47128E0017DFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

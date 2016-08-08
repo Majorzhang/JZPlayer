@@ -6,8 +6,6 @@
 //  Copyright © 2016年 Jun Zhang. All rights reserved.
 //
 
-import UIKit
-
-class JZPlayerController: AVPlayerViewController {
-
-}
+//import UIKit
+//import AVKit
+//import AVFoundation

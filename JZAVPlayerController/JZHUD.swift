@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 let G_PI = CGFloat(M_PI)
-class jzHUD: UIView {
+class JZHUD: UIView {
  
     var shapeLayer = CAShapeLayer()
     var path: UIBezierPath!
@@ -20,16 +20,19 @@ class jzHUD: UIView {
     }
     
     private func addCircleLayer() {
+        self.backgroundColor = UIColor.clearColor()
         path = UIBezierPath(arcCenter: self.center, radius: 10, startAngle: 0, endAngle: G_PI * 1.00, clockwise: true)
         shapeLayer.path = path.CGPath
         shapeLayer.lineWidth = 2
+        shapeLayer.fillColor = UIColor.clearColor().CGColor
         shapeLayer.strokeColor = UIColor.whiteColor().CGColor
         shapeView.layer.addAnimation(configAnimation(), forKey: "rotate")
         shapeView.center = self.center
+        shapeView.backgroundColor = UIColor.clearColor()
         shapeView.bounds.size = CGSize(width: 30, height: 30)
         shapeView.layer.addSublayer(shapeLayer)
-        
         addSubview(shapeView)
+        userInteractionEnabled = true
     }
     
     
@@ -51,7 +54,6 @@ class jzHUD: UIView {
  
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
-        debugPrint(self.center)
         shapeView.center = center
         shapeView.bounds.size = CGSize(width: 30, height: 30)
         path = UIBezierPath(arcCenter: CGPoint(x: 15, y: 15), radius: 15, startAngle: 0, endAngle: G_PI * 1.0, clockwise: true)

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JZAVPlayerController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,54 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvT-pD-czv" customClass="JZPlayerView" customModule="JZAVPlayerController" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkF-na-0Vr">
+                                        <rect key="frame" x="8" y="-6" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="testAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGM-FV-yH9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="EsB-nz-auE"/>
+                                    <constraint firstAttribute="height" constant="600" id="x4H-pT-gmF"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EsB-nz-auE"/>
+                                        <exclude reference="x4H-pT-gmF"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rvT-pD-czv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0BD-nk-ggZ"/>
+                            <constraint firstAttribute="trailing" secondItem="rvT-pD-czv" secondAttribute="trailing" id="DYS-fi-4lS"/>
+                            <constraint firstItem="rvT-pD-czv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="e6k-3m-fFk"/>
+                            <constraint firstItem="rvT-pD-czv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gk7-eQ-ZLW"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="rvT-pD-czv" secondAttribute="bottom" id="mn0-0c-6B8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rvT-pD-czv" secondAttribute="trailing" id="uk4-m6-sbm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="e6k-3m-fFk"/>
+                                <exclude reference="uk4-m6-sbm"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="jzView" destination="rvT-pD-czv" id="gii-BV-R2f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="280" y="202"/>
         </scene>
     </scenes>
 </document>
