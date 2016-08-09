@@ -202,7 +202,6 @@ class JZPlayerManager: NSObject {
                         if currentView.jzSlider.fininshValue >= 1.0 {
                             status = .End
                         } else {
-                            print("loggggggggggggg")
                             bufferEmptyPause = true
                             status = .Prepare
                         }
@@ -222,9 +221,13 @@ class JZPlayerManager: NSObject {
                 var range = CMTimeRange()
                 times?.getValue(&range)
                 let bufferValue = CMTimeGetSeconds(range.start) + CMTimeGetSeconds(range.duration)
-                async({ 
-                    self.updateBufferProgress(bufferValue)
-                })
+                if bufferValue.isNaN{
+                    debugPrint("invalid Nan number")
+                } else {
+                    async({
+                        self.updateBufferProgress(bufferValue)
+                    })
+                }
             default:
                 break
             }
@@ -240,7 +243,7 @@ class JZPlayerManager: NSObject {
     func updateBufferProgress(bufferValue: Float64) {
         let playerDuration =  currentView.player?.duration
         
-        if playerDuration?.value != 0 {
+        if playerDuration?.value  > 0 {
             let bufferProgress = bufferValue / CMTimeGetSeconds(playerDuration!)
             delegate?.bufferValueChanged(bufferProgress)
 
@@ -264,28 +267,45 @@ extension AVPlayerItem {
         }
     }
     
-    func removeObservers(observer: NSObject, keyPathArray: [String]) {
-        for index in 0..<keyPathArray.count {
-            self.removeObserver(observer, forKeyPath: keyPathArray[index])
-        }
-    }
-
+//    override func removeObservers(observer: NSObject, keyPathArray: [String]) {
+//        for index in 0..<keyPathArray.count {
+//            self.removeObserver(observer, forKeyPath: keyPathArray[index])
+//        }
+//    }
+//
 }
 
-extension AVPlayer {
+//extension AVPlayer {
+//    func addObservers(observer: NSObject, keyPathArray: [String],options: NSKeyValueObservingOptions,  context:[UInt8]) {
+//        var contexts = context
+//        for index in 0..<keyPathArray.count {
+//            self.addObserver(observer, forKeyPath: keyPathArray[index], options: .New, context: &contexts[index])
+//        }
+//    }
+//
+//    func removeObservers(observer: NSObject, keyPathArray: [String]) {
+//        for index in 0..<keyPathArray.count {
+//            self.removeObserver(observer, forKeyPath: keyPathArray[index])
+//        }
+//    }
+//
+//    
+//}
+
+
+extension NSObject {
     func addObservers(observer: NSObject, keyPathArray: [String],options: NSKeyValueObservingOptions,  context:[UInt8]) {
         var contexts = context
         for index in 0..<keyPathArray.count {
             self.addObserver(observer, forKeyPath: keyPathArray[index], options: .New, context: &contexts[index])
         }
     }
-
+    
     func removeObservers(observer: NSObject, keyPathArray: [String]) {
         for index in 0..<keyPathArray.count {
             self.removeObserver(observer, forKeyPath: keyPathArray[index])
         }
     }
-
     
 }
 

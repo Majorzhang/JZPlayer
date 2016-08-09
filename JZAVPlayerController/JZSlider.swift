@@ -97,7 +97,6 @@ class JZSlider: UIView {
         let point = (event.allTouches())?.map {
             $0.locationInView(self)
         }
-        print(point, lastPointX)
         if let x = point?.last?.x {
             button.center.x += x - lastPointX
             
@@ -111,7 +110,6 @@ class JZSlider: UIView {
             fininshValue = Double(finishProgress.frame.size.width / (self.width - kImageViewHalfWidth * 2))
         }
         
-        print(fininshValue)
         delegate?.sliderValueChanged(fininshValue)
     }
     

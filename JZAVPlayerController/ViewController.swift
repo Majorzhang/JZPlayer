@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     
     @IBAction func testAction(sender: AnyObject) {
         let otherUrl = NSURL(string: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")
+//        let view: JZPlayerView = JZPlayerView()
+//        view.frame = jzView.frame
+//        jzView = view
         jzView.url = otherUrl
 //        jzView.hud.showHUD()
     }
