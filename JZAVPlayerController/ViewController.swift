@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let mp4 = NSBundle.mainBundle().pathForResource("testvide", ofType: "mp4")
+        let mp4 = NSBundle.mainBundle().pathForResource("test", ofType: "mp4")
         let url = NSURL(fileURLWithPath: mp4!)
 
         self.view.addSubview(jzView)

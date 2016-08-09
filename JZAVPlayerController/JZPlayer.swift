@@ -129,7 +129,7 @@ class JZPlayerView: UIView {
     
     func configTimeLabel(rect: CGRect, observer: UILabel) {
         observer.frame = rect
-        observer.font = Font(8)
+        observer.font = Font(9)
         observer.textColor = UIColor.whiteColor()
         observer.text = "00:00:00"
         self.addSubview(observer)
